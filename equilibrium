@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Academia Equilibrium</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Planos</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">Sobre nós</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Contate-nos</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <center>
+    <h1><b>Academia Equilibrium</b></h1>
+    <h4>A dor aqui é o sedentarismo deixando o corpo!</h4>
+    </center>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="https://www.skistar.com/globalassets/bilder-nya-skistar.com/experium/gym.jpg?maxwidth=1920&quality=80" style="width:100%" height="700">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Possuimos os melhores equipamentos do mercado!</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="https://s7d2.scene7.com/is/image/TWCNews/brooklyn-gym-generic-file-covidjpg" style="width:100%" height="700">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Somente trabalhamos com os melhores profissionais!</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="https://weddingplz.files.wordpress.com/2016/04/csm_b8small_9e3ecc74c3.jpg" style="width:100%" height="700">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Temos compromisso com o seu bem-estar!</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">O que oferecemos?</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Equipamentos Modernos</h3>
+      <p>Todos os nossos equipamentos e aparelhos são sempre os mais recentes disponiveis no mercado.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Profissionais Capacitados</h3>
+      <p>Somente contratamos e trabalhamos com profissionais capacitados e com experiencia.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Local 100% Higienizado</h3>
+      <p>Limpamos nosso espaço todos os dias, então você nunca usará um equipamentos ou aparelhos sujos.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Desenvolvimento Rápido</h3>
+      <p>Com os melhores equipamentos, aparelhos e profissionais, seu desenvolvimento será super rápido.</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nossos planos</span>
+      <p>⠀⠀⠀</p>
+      <p>Escolha um plano de preços que atenda às suas necessidades.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Básico</li>
+        <li class="w3-padding-16">Acesso à musculação.</li>
+        <li class="w3-padding-16">Acesso livre a academia aos fins de semana.</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R$ 69,90</h2>
+          <span class="w3-opacity">por mês</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Assinar</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Essencial</li>
+        <li class="w3-padding-16">Acesso à musculação.</li>
+        <li class="w3-padding-16">Acesso livre a academia aos fins de semana.</li>
+        <li class="w3-padding-16">Acesso ao nosso nutricionista.</li>
+        <li class="w3-padding-16">
+            <h2 class="w3-wide">R$ 89,90</h2>
+          <span class="w3-opacity">por mês</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Assinar</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16">Acesso à musculação.</li>
+        <li class="w3-padding-16">Acesso livre a academia aos fins de semana.</li>
+        <li class="w3-padding-16">Acesso ao nosso nutricionista.</li>
+        <li class="w3-padding-16">Atendimento com hora marcada com nosso fisioterapeuta.</li>
+        <li class="w3-padding-16">
+            <h2 class="w3-wide">R$ 99,90</h2>
+          <span class="w3-opacity">por mês</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Assinar</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Quem nós somos?</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="1.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Igor Souza Fernandes</h3>
+          <p class="w3-opacity">Fundador da Equilibrium</p>
+          <p>Decidi fundar a Equilibrium para ajudar as pessoas a alcançarem seus corpos e saúde dos sonhos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="2.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Pedro Castro Araujo</h3>
+          <p class="w3-opacity">Fisioterapeuta</p>
+          <p>Sou fisioterapeuta a mais de 30 anos e tenho certeza que posso te ajudar com os problemas do seus corpos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="3.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Giovana Rodrigues Gomes</h3>
+          <p class="w3-opacity">Nutricionista</p>
+          <p>Sou nutricionista a mais de 15 anos e confirmo que um corpo bonito começa na alimentação saudável.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Onde nos achar?</span>
+  </div>
+  <h4>A academia Equilibrium foi fundada em 2005 com o objetivo da dor aqui é o sedentarismo deixando o corpo! Seu fundador, Igor Souza Fernandes, decidiu criar ela para ajudar as pessoas a alcançarem seus corpos e saúde dos sonhos.
+    Além do Igor, também temos em nossa equipe o Pedro Castro Araujo, nossa fisioterapeuta, e a Giovana Rodrigues Gomes, nossa nutricionista. <br>
+    Os pilares da Equilibrium são equipamentos modernos, profissionais capacitados, local 100% higienizado e desenvolvimento rápido. <br>
+    Aqui temos três planos: o basico, o essencial e o premium. <br> <br>
+    <center> Venha conhecer a Equilibrium! </center>
+   </h4>
+
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Onde nos achar?</span>
+  </div>
+  <center>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.57749128765!2d-43.5147790844806!3d-20.400303286342215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa40aec82d86b05%3A0xd956898d1a35e861!2sAcademia%20Equilibrium!5e0!3m2!1spt-BR!2sbr!4v1660185275103!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </center>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contate-nos</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Nome Completo:</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email:</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Assunto:</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Messagem:</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Enviar</button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
